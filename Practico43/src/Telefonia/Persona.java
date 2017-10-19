@@ -11,4 +11,8 @@ package Telefonia;
  */
 public class Persona {
     
+    public Persona(){
+        
+    }
+    
 }
