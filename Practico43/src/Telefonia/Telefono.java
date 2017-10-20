@@ -39,7 +39,7 @@ public abstract class Telefono {
         this.marca = marca;
     }
     
-    public abstract boolean llamar(long nroDestino){
-        
+    public abstract boolean Llamar(long nroDestino){
+        return 0;
     }
 }
