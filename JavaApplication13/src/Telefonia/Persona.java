@@ -20,6 +20,10 @@ public class Persona {
     
     public void llamarMensajear(Telefono tel, long nroDestino, String mensaje){
         
+         if(tel instanceof Celular){
+             tel.Llamar(nroDestino);
+             System.out.println(mensaje);
+         }
     }
     
     
