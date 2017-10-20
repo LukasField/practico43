@@ -36,10 +36,10 @@ public class Inalambrico extends Telefono{
     public Inalambrico(long numero, String modelo, String marca) {
         super(numero, modelo, marca);
     }
-
     
+    @Override
     public boolean Llamar(long nroDestino) {
-      return false;
+      return true;
     }
         
     

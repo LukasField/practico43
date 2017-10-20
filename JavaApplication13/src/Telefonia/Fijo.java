@@ -28,7 +28,7 @@ public class Fijo extends Telefono {
 
     @Override
     public boolean Llamar(long nroDestino) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return true;
     }
     
 }

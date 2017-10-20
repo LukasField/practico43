@@ -24,9 +24,12 @@ public class Celular extends Telefono {
     public void setEmpresa(String e){
         empresa = e;
     }
-
-    @Override
+    
     public boolean Llamar(long nroDestino) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return true;
+    }
+    
+    public boolean enviarMensaje(int nroDestino, String mensaje){
+        return true;
     }
 }
